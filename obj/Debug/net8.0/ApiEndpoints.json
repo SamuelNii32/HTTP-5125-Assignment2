@@ -1,0 +1,128 @@
+[
+  {
+    "ContainingType": "HTTP_5125_Assignment2.Controllers.CupcakesController",
+    "Method": "CalculateLeftovers",
+    "RelativePath": "api/J1/Cupcakes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RegularBoxes",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SmallBoxes",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HTTP_5125_Assignment2.Controllers.DelivedroidController",
+    "Method": "CalculateScore",
+    "RelativePath": "api/J1/Delivedroid",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Collisions",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deliveries",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HTTP_5125_Assignment2.Controllers.ChiliPeppersController",
+    "Method": "GetTotalSpiciness",
+    "RelativePath": "api/J2/ChiliPeppers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NumPeppers",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Ingredients",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HTTP_5125_Assignment2.Controllers.FergusonballController",
+    "Method": "CalculateStarRatings",
+    "RelativePath": "api/j2/Fergusonball",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "HTTP_5125_Assignment2.Controllers.TeamData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HTTP_5125_Assignment2.Controllers.DecodeInstructionsController",
+    "Method": "DecodeInstructions",
+    "RelativePath": "api/J3/DecodeInstructions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Instructions",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HTTP_5125_Assignment2.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HTTP_5125_Assignment2.WeatherForecast, HTTP-5125-Assignment2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

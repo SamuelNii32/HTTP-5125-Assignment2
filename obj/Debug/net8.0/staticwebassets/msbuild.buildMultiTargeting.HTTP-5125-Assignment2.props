@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HTTP-5125-Assignment2.props" />
+</Project>
